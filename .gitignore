@@ -1,0 +1,14 @@
+# Ignorar directorios y archivos del sistema
+/vendor/
+/node_modules/
+/writable/*
+!/writable/.htaccess
+
+# Archivos sensibles
+.env
+.DS_Store
+Thumbs.db
+
+# Archivos del entorno local
+/*.log
+/public/uploads/*
